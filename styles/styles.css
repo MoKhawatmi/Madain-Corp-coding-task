@@ -1,0 +1,65 @@
+#categories{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+#userList{
+    width: 50%;
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+#userList li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    margin: 2%;
+    padding: 3%;
+}
+
+#userList li .category-item{
+    align-self: flex-end;
+    margin: 0;
+}
+
+.category-item{
+    background-color: turquoise;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20%/50%;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.avatar{
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+.check-element{
+    display: none;
+}
+
+.check-element:hover+h5{
+    background-color: brown;
+}
+
+.check-element:checked+h5{
+    background-color: brown;
+}
+
+label{
+    height: min-content;
+}
+
+label h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
